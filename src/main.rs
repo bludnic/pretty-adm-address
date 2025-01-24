@@ -52,6 +52,7 @@ fn append_to_file(file_path: &str, content: &str) -> std::io::Result<()> {
 }
 
 fn main() {
+    println!("adm-pretty-address finder started");
     loop {
         // Generate passphrase and seed
         let (phrase, seed) = generate_passphrase();
