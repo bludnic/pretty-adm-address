@@ -72,7 +72,7 @@ fn main() {
         // println!("ADM Address: {}", adm_address);
 
 
-        if adm_address.len() <= 14 {
+        if adm_address.len() <= 13 {
             println!("ADM Address: {}", adm_address);
             let content = adm_address + ":" + &phrase + "\n";
             append_to_file("accounts.csv", &content);
